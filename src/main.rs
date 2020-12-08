@@ -13,6 +13,8 @@ const AOC: Aoc = Aoc {
         solution! {2, parser!{ day2::input }, solver!{ day2::part2 }},
         solution! {3, parser!{ day3::input }, solver!{ day3::part1 }},
         solution! {3, parser!{ day3::input }, solver!{ day3::part2 }},
+        solution! {4, parser!{ day4::input }, solver!{ day4::part1 }},
+        solution! {4, parser!{ day4::input }, solver!{ day4::part2 }},
     ],
 };
 
