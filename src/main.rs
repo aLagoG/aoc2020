@@ -9,6 +9,8 @@ const AOC: Aoc = Aoc {
     solutions: &[
         solution! {1, failable_parser!{ day1::input }, solver!{ day1::part1 }},
         solution! {1, failable_parser!{ day1::input }, solver!{ day1::part2 }},
+        solution! {2, parser!{ day2::input }, solver!{ day2::part1 }},
+        solution! {2, parser!{ day2::input }, solver!{ day2::part2 }},
     ],
 };
 
