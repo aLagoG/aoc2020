@@ -1,6 +1,3 @@
-use itertools::{Itertools, MinMaxResult};
-use std::collections::HashSet;
-
 type InputType = Vec<u32>;
 
 pub fn input(input: &str) -> InputType {
